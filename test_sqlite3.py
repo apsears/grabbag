@@ -1,7 +1,5 @@
 import sqlite3
 
-def test_fail():
-	assert 1==2
 
 def test_success():
 	assert 1==1
@@ -9,7 +7,8 @@ def test_success():
 def test_connection():
 	conn = sqlite3.connect('test.db')
 	c = conn.cursor()
+	c.execute('DROP TABLE IF EXISTS test;')
 	c.execute('CREATE TABLE test(id int);')
-	c.commit()
+	conn.commit()
 	c.close()
 	assert 1==1
