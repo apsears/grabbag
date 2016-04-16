@@ -1,4 +1,4 @@
-# grabbag
-<a href='https://travis-ci.org/apsears/grabbag'><img  src='https://secure.travis-ci.org/apsears/grabbag.png?branch=master'></a>
+# Travis-CI
+<a href='https://travis-ci.org/apsears/travis-ci'><img  src='https://secure.travis-ci.org/apsears/travis-ci.png?branch=master'></a>
 
-An unfiltered grabbag of experimental code
+A test repository for Travis-CI
